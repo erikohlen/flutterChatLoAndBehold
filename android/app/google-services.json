@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "220884806947",
+    "firebase_url": "https://flutterchatloandbehold.firebaseio.com",
+    "project_id": "flutterchatloandbehold",
+    "storage_bucket": "flutterchatloandbehold.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220884806947:android:46ccaae7be47ce8a317096",
+        "android_client_info": {
+          "package_name": "io.loandbehold.flutterChatLoAndBehold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220884806947-q2hrsdk3hrpubbj835fadq5al688bip1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoz7LY6R9oSUjwHzLsYe1Oj4ZswSqNJc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220884806947-q2hrsdk3hrpubbj835fadq5al688bip1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
