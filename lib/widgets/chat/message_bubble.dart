@@ -73,6 +73,7 @@ class MessageBubble extends StatelessWidget {
           left: isMe ? null : 120,
           right: isMe ? 120 : null,
           child: CircleAvatar(
+            backgroundColor: Colors.grey[300],
             backgroundImage: NetworkImage(userImage),
           ),
         ),

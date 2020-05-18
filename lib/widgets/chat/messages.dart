@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter_complete_guide/screens/splash_screen.dart';
 
 import '../chat/message_bubble.dart';
 
@@ -24,6 +25,9 @@ class Messages extends StatelessWidget {
                 )
                 .snapshots(),
             builder: (ctx, chatSnapShot) {
+              if (chatSnapShot.data == null) {
+                return SplashScreen();
+              }
               final chatDocs = chatSnapShot.data.documents;
               return ListView.builder(
                 reverse: true,
